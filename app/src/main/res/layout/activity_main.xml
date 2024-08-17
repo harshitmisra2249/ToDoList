@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:background="#EDC589"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,31 +14,40 @@
         android:layout_height="135dp"
         android:layout_centerInParent="true"
         android:text="To Do List App: Keep Track of All your tasks"
-        android:textColor="#1939EA"
+        android:textColor="#97081E9B"
         android:textFontWeight="1000"
         android:textSize="32dp"
-        android:textStyle="bold" />
+        android:textStyle="italic" />
+
+
+
 
     <Button
         android:id="@+id/add"
         android:layout_width="119dp"
         android:layout_height="75dp"
-        android:text="Add"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:textSize="32dp"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:text="Add"
+        android:backgroundTint="#EAB106"
+        android:textSize="32dp" />
+
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="80dp"
         android:scrollbars="none">
+
+
         <LinearLayout
             android:id="@+id/container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"/>
-</ScrollView>
+            android:orientation="vertical" />
+
+    </ScrollView>
+
 
 </RelativeLayout>

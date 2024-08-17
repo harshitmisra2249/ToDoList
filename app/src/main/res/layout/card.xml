@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#D3B07B">
 
 
     <RelativeLayout
@@ -19,16 +20,20 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#E1B36E"
+                android:elevation="10dp"
+                android:layout_margin="10dp"
                 android:padding="10dp">
 
             <TextView
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Name"
-                android:textColor="#2196F3"
+                android:text="Enter your task"
+                android:textColor="#4057D5"
+                android:background="#E1B36E"
                 android:textFontWeight="1000"
-                android:textSize="30dp"/>
+                android:textSize="28sp"/>
 
         <Button
             android:id="@+id/delete"
@@ -36,6 +41,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:text="Delete"
+            android:textColor="#BE1B0F"
+            android:backgroundTint="#EF805C"
             android:layout_alignParentRight="true"/>
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
